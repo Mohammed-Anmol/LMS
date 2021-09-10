@@ -17,3 +17,13 @@ pymysql – Please run below command to install tkinter
 *pip install pymysql*
 
 *Note: You are required to have SQL server installed on your system in order to make pymysql work. If you do not have it ready, please download from SQL Official website*
+
+Description of SQL Tables
+
+Create Tables
+
+*create database db;* (password = "password")
+
+*create table books(bid varchar(20) primary key, title varchar(30), author varchar(30), status varchar(30));*
+
+*create table books_issued(bid varchar(20) primary key, issuedto varchar(30));*
