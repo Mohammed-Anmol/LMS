@@ -16,4 +16,4 @@ pymysql – Please run below command to install tkinter
 
 *pip install pymysql*
 
-*Note: You are required to have MySQL server installed on your system in order to make pymysql work. If you do not have it ready, please download from MySQL Official website*
+*Note: You are required to have SQL server installed on your system in order to make pymysql work. If you do not have it ready, please download from SQL Official website*
