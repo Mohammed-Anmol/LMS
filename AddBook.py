@@ -20,7 +20,6 @@ def bookRegister():
     print(bid)
     print(title)
     print(author)
-    print(status)
 
 
     root.destroy()
@@ -38,7 +37,7 @@ def addBook():
     mypass = "root"
     mydatabase="db"
 
-    con = pymysql.connect(host="localhost",user="root",password="password",database="db")
+    con = pymysql.connect(host="localhost",user="root",password="anmol",database="db")
     cur = con.cursor()
 
     # Enter Table Names here

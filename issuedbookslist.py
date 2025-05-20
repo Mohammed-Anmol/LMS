@@ -3,7 +3,7 @@ from PIL import ImageTk,Image
 from tkinter import messagebox
 import pymysql
 
-con = pymysql.connect(host="localhost",user="root",password="password",database="db")
+con = pymysql.connect(host="localhost",user="root",password="anmol",database="db")
 cur = con.cursor()
 
 # Enter Table Names here

@@ -11,7 +11,7 @@ from issuedbookslist import *
 from viewstudents import *
 from addstudent import *
 
-con = pymysql.connect(host="localhost",user="root",password="password",database="db")
+con = pymysql.connect(host="localhost",user="root",password="anmol",database="db")
 cur = con.cursor()
 
 root = Tk()
@@ -30,7 +30,7 @@ Canvas1.pack(expand=True,fill=BOTH)
 headingFrame1 = Frame(root,bg="brown",bd=5)
 headingFrame1.place(relx=0.2,rely=0.05,relwidth=0.6,relheight=0.16)
 
-headingLabel = Label(headingFrame1, text="Welcome to \n Library Database management system", bg='white', fg='black', font=('Arial',14))
+headingLabel = Label(headingFrame1, text="East point institute \n Library management system", bg='white', fg='black', font=('Arial',14))
 headingLabel.place(relx=0,rely=0, relwidth=1, relheight=0.8)
 
 btn1 = Button(root,text="Add Book Details",bg='white', fg='brown', font=('Tahoma',11), command=addBook)

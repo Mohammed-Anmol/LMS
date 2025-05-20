@@ -34,7 +34,7 @@ def addstudent():
     root.geometry("600x500")
 
 
-    con = pymysql.connect(host="localhost",user="root",password="password",database="db")
+    con = pymysql.connect(host="localhost",user="root",password="anmol",database="db")
     cur = con.cursor()
 
     # Enter Table Names here
